@@ -27,11 +27,34 @@ body{
     font-weight: 900;
     color: #000000;
 }
-#menu img{
-    padding-top: 200px;
-    width: 70%;
+/*-*/
+#menu #illu:hover{
+    font-weight: 900;
+    color: #00bdff;
 }
-
+#menu #newm:hover{
+    font-weight: 900;
+    color: #ff0098;
+}
+#menu #vide:hover{
+    font-weight: 900;
+    color: #fff100;
+}
+#menu #epil:hover{
+    font-weight: 900;
+    color: #000000;
+}
+#menu img{
+    width: 70%;
+    padding-top: 190px;
+}
+#verticalLine{
+    position: absolute;
+    border-left: 2px solid #e5e5ee;
+    height: 721px;
+    top: 0;
+    left: 8%;
+}
 
 
 #main1{
@@ -41,10 +64,13 @@ body{
     /*background-color: #e5e6e6;*/
     padding: 50px 0 0 50px;
 }
-#main1 h1{
+#main1 #main1Motto{
     font-size: 30px;
     font-weight: 700;
-    padding: 0 0 100px 0;
+    padding: 0 0 150px 0;
+}
+#main1 #main1Name{
+    padding-top: 15px;
 }
 #main1 button{
     font-family: 'Noto Sans KR', sans-serif;
@@ -53,7 +79,18 @@ body{
     background-color: #ffffff;
     border: 3px solid #000000;
     border-radius: 10px;
+    padding: 9px 50px;
+}
+#main1 button:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px solid #000000;
+    border-radius: 10px;
     padding: 10px 50px;
+    cursor: pointer;
 }
 
 
@@ -63,22 +100,23 @@ body{
     left: 54%;
     background-color: #000000;
     color: #ffffff;
+    padding: 50px 0;
 }
 #main2 img{
     width: 45%;
-    padding: 50px 0 0 50px;
+    padding: 0 0 0 50px;
 }
 #main2 h1{
     font-size: 30px;
     font-weight: 700;
     text-align: right;
-    padding: 10px 50px 20px 0;
+    padding: 30px 50px 10px 0;
 }
 #main2 h2{
     font-size: 20px;
     font-weight: 500;
     text-align: right;
-    padding: 0 50px 50px 0;
+    padding: 0 50px 97px 0;
 }
 #main2 h4{
     font-size: 20px;
