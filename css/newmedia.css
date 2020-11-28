@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
+body{
+    /*background-color: #ff6e6e;*/
+}
+.wrap{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+}
+#menu{
+    position: absolute;
+    width: 8%;
+    /*background-color: #000000;*/
+    text-align: center;
+    padding-top: 50px;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 300;
+    color: #e5e5e5;
+}
+#menu h3{
+    padding: 0 30px 50px 30px;
+    text-align: left;
+}
+#menu #newm{
+    font-weight: 900;
+    color: #ff0098;
+}
+/*-*/
+#menu #illu:hover{
+    font-weight: 900;
+    color: #00bdff;
+}
+#menu #prol:hover{
+    font-weight: 900;
+    color: #000000;
+}
+#menu #vide:hover{
+    font-weight: 900;
+    color: #ffc200;
+}
+#menu #epil:hover{
+    font-weight: 900;
+    color: #000000;
+}
+#menu img{
+    width: 70%;
+    padding-top: 190px;
+}
+#verticalLine{
+    position: absolute;
+    border-left: 2px solid #e5e5ee;
+    height: 721px;
+    top: 0;
+    left: 8%;
+}
+
+
+
+#main1{
+    position: absolute;
+    width: 46%;
+    left: 8%;
+    padding: 50px 0 0 50px;
+}
+#main1 #main1Title{
+    font-size: 30px;
+    font-weight: 900;
+    color: #ff0098;
+}
+#main1 #main1TitleSub{
+    width: 87%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0 150px 0 ;
+}
+#main1 h3{
+    width: 87%;
+    font-size: 18px;
+    font-weight: 500;
+}
+#main1 #main1Content1{
+    padding-bottom: 30px;
+}
+#main1 #main1Content2{
+    padding-bottom: 150px;
+}
+#main1 button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff0098;
+    background-color: #ffffff;
+    border: 3px solid #ff0098;
+    border-radius: 10px;
+    padding: 9px 50px;
+}
+#main1 button:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ff0098;
+    border: 3px solid #ff0098;
+    border-radius: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+
+
+#main2{
+    position: absolute;
+    width: 46%;
+    left: 54%;
+    background-color: #ff0098;
+    color: #ffffff;
+
+}
+#main2 img{
+    width: 45%;
+
+}

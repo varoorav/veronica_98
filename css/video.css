@@ -23,22 +23,22 @@ body{
     padding: 0 30px 50px 30px;
     text-align: left;
 }
-#menu #prol{
+#menu #vide{
     font-weight: 900;
-    color: #000000;
+    color: #ffc200;
 }
 /*-*/
 #menu #illu:hover{
     font-weight: 900;
     color: #00bdff;
 }
+#menu #prol:hover{
+    font-weight: 900;
+    color: #000000;
+}
 #menu #newm:hover{
     font-weight: 900;
     color: #ff0098;
-}
-#menu #vide:hover{
-    font-weight: 900;
-    color: #ffc200;
 }
 #menu #epil:hover{
     font-weight: 900;
@@ -57,27 +57,42 @@ body{
 }
 
 
+
 #main1{
     position: absolute;
     width: 46%;
     left: 8%;
-    /*background-color: #e5e6e6;*/
     padding: 50px 0 0 50px;
 }
-#main1 #main1Motto{
+#main1 #main1Title{
     font-size: 30px;
-    font-weight: 700;
-    padding: 0 0 150px 0;
+    font-weight: 900;
+    color: #ffc200;
 }
-#main1 #main1Name{
-    padding-top: 15px;
+#main1 #main1TitleSub{
+    width: 87%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0 150px 0 ;
+}
+#main1 h3{
+    width: 87%;
+    font-size: 18px;
+    font-weight: 500;
+}
+#main1 #main1Content1{
+    padding-bottom: 30px;
+}
+#main1 #main1Content2{
+    padding-bottom: 150px;
 }
 #main1 button{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
+    color: #ffc200;
     background-color: #ffffff;
-    border: 3px solid #000000;
+    border: 3px solid #ffc200;
     border-radius: 10px;
     padding: 9px 50px;
 }
@@ -86,47 +101,24 @@ body{
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
-    border: 3px solid #000000;
+    background-color: #ffc200;
+    border: 3px solid #ffc200;
     border-radius: 10px;
     padding: 10px 50px;
     cursor: pointer;
 }
 
 
+
 #main2{
     position: absolute;
     width: 46%;
     left: 54%;
-    background-color: #000000;
+    background-color: #ffc200;
     color: #ffffff;
-    padding: 50px 0;
+
 }
 #main2 img{
     width: 45%;
-    padding: 0 0 0 50px;
-}
-#main2 h1{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: right;
-    padding: 30px 50px 10px 0;
-}
-#main2 h2{
-    font-size: 20px;
-    font-weight: 500;
-    text-align: right;
-    padding: 0 50px 97px 0;
-}
-#main2 h4{
-    font-size: 20px;
-    font-weight: 300;
-    text-align: right;
-    padding: 0 50px 20px 0;
-}
-#main2 h3{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-    padding: 0 50px 5px 0;
+
 }
