@@ -73,7 +73,7 @@ body{
     width: 87%;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 150px 0 ;
+    padding: 20px 0 100px 0 ;
 }
 #main1 h3{
     width: 87%;
@@ -84,9 +84,15 @@ body{
     padding-bottom: 30px;
 }
 #main1 #main1Content2{
-    padding-bottom: 150px;
+    padding-bottom: 30px;
 }
-#main1 button{
+#main1 #main1Content3{
+    padding-bottom: 30px;
+}
+#main1 #main1Content4{
+    padding-bottom: 100px;
+}
+#main1 #main1Go{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -95,16 +101,17 @@ body{
     border: 3px solid #00bdff;
     border-radius: 10px;
     padding: 9px 50px;
+    outline: 0;
 }
-#main1 button:hover{
+#main1 #main1Go:hover{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
     background-color: #00bdff;
-    border: 3px solid #00bdff;
+    
     border-radius: 10px;
-    padding: 10px 50px;
+    padding: 9px 50px;
     cursor: pointer;
 }
 
@@ -116,9 +123,67 @@ body{
     left: 54%;
     background-color: #00bdff;
     color: #ffffff;
-
+    padding: 300px 0;
 }
 #main2 img{
     width: 45%;
 
+}
+
+
+
+#main1BeforeDiv{
+    position: absolute;
+    left: 8%;
+    padding: 630px 0 0 50px;
+}
+#main1BeforeDiv #main1Before{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #ffffff;
+    border: 3px solid #00bdff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main1BeforeDiv #main1Before:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #00bdff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+
+#main2NextDiv{
+    position: absolute;
+    left: 54%;
+    padding: 630px 0 0 50px;
+}
+#main2NextDiv #main2Next{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #00bdff;
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main2NextDiv #main2Next:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
 }

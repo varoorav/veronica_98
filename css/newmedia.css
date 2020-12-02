@@ -73,7 +73,7 @@ body{
     width: 87%;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 150px 0 ;
+    padding: 20px 0 100px 0 ;
 }
 #main1 h3{
     width: 87%;
@@ -84,8 +84,9 @@ body{
     padding-bottom: 30px;
 }
 #main1 #main1Content2{
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
+
 #main1 button{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
@@ -95,6 +96,7 @@ body{
     border: 3px solid #ff0098;
     border-radius: 10px;
     padding: 9px 50px;
+    outline: 0;
 }
 #main1 button:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -104,7 +106,7 @@ body{
     background-color: #ff0098;
     border: 3px solid #ff0098;
     border-radius: 10px;
-    padding: 10px 50px;
+    padding: 9px 50px;
     cursor: pointer;
 }
 
@@ -120,5 +122,4 @@ body{
 }
 #main2 img{
     width: 45%;
-
 }
