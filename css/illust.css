@@ -82,12 +82,15 @@ body{
 }
 #main1 #main1Content1{
     padding-bottom: 30px;
+    line-height: 20px;
 }
 #main1 #main1Content2{
     padding-bottom: 30px;
+    line-height: 20px;
 }
 #main1 #main1Content3{
     padding-bottom: 30px;
+    line-height: 20px;
 }
 #main1 #main1Content4{
     padding-bottom: 100px;
@@ -123,11 +126,12 @@ body{
     left: 54%;
     background-color: #00bdff;
     color: #ffffff;
-    padding: 300px 0;
+
+
 }
 #main2 img{
-    width: 45%;
-
+    width: 100%;
+    padding: 121px 0;
 }
 
 
@@ -135,7 +139,7 @@ body{
 #main1BeforeDiv{
     position: absolute;
     left: 8%;
-    padding: 630px 0 0 50px;
+    padding: 640px 0 0 50px;
 }
 #main1BeforeDiv #main1Before{
     font-family: 'Noto Sans KR', sans-serif;
@@ -163,7 +167,7 @@ body{
 #main2NextDiv{
     position: absolute;
     left: 54%;
-    padding: 630px 0 0 50px;
+    padding: 640px 0 0 645px;
 }
 #main2NextDiv #main2Next{
     font-family: 'Noto Sans KR', sans-serif;
