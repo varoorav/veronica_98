@@ -4,7 +4,7 @@
 
 .dots {
   position: relative;
-  padding: 20px 0 0 72.5%;
+  padding: 20px 0 0 69%;
 }
 .dot {
   cursor: pointer;
@@ -32,7 +32,7 @@
   } 
   100% {
     opacity: 1;
-    padding: 20px 0 0 72.5%;
+    padding: 20px 0 0 69%;
   }
 }
 @keyframes dotFade {
@@ -42,7 +42,7 @@
   } 
   100% {
     opacity: 1;
-    padding: 20px 0 0 72.5%;
+    padding: 20px 0 0 69%;
   }
 }
 
