@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
 body{
-    /*background-color: #ff6e6e;*/
+    overflow: hidden;
 }
 .wrap{
     font-family: 'Noto Sans KR', sans-serif;
@@ -54,92 +54,62 @@ body{
     height: 721px;
     top: 0;
     left: 8%;
+    z-index: 2;
 }
 
 
 #main1{
     position: absolute;
-    width: 46%;
+    width: 43%;
     left: 8%;
-    /*background-color: #e5e6e6;*/
-    padding: 50px 0 0 50px;
-}
-#main1 #main1Motto{
-    font-size: 30px;
-    font-weight: 700;
-    padding: 0 0 150px 0;
-}
-#main1 #main1Name{
-    padding-top: 15px;
-}
-#main1 button{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #ffffff;
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 9px 50px;
-    outline: 0;
-}
-#main1 button:hover{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #ffffff;
     background-color: #000000;
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 9px 50px;
-    cursor: pointer;
+    color: #ffffff;
+    padding: 50px 0 0 50px;
+    z-index: 1;
 }
+
+#main1 h4{
+    font-size: 23px;
+    font-weight: 300;
+    padding: 0 50px 20px 0;
+}
+#main1 #main2Phone{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 50px 5px 0;
+}
+#main1 #main2Email{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 50px 5px 0;
+}
+#main1 #main2Instagram{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 50px 600px 0;
+}
+
 
 
 #main2{
     position: absolute;
-    width: 46%;
+    width: 43%;
     left: 54%;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 50px 0;
+
+    color: #000000;
+    padding: 570px 0 0 11px;
 }
-#main2 img{
-    width: 45%;
-    padding: 0 0 0 50px;
+#main2 #main1Motto{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#main2 #main1Name{
+    padding-top: 15px;
 }
 #main2 h1{
     font-size: 30px;
     font-weight: 700;
     text-align: right;
-    padding: 30px 50px 10px 0;
-}
-#main2 h2{
-    font-size: 20px;
-    font-weight: 500;
-    text-align: right;
-    padding: 0 50px 70px 0;
-}
-#main2 h4{
-    font-size: 20px;
-    font-weight: 300;
-    text-align: right;
-    padding: 0 50px 20px 0;
-}
-#main2 #main2Phone{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-    padding: 0 50px 5px 0;
-}
-#main2 #main2Email{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-    padding: 0 50px 5px 0;
-}
-#main2 #main2Instagram{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-    padding: 0 50px 33px 0;
+
 }
