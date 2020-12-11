@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
 body{
-    /*background-color: #ff6e6e;*/
+    overflow: hidden;
 }
 .wrap{
     font-family: 'Noto Sans KR', sans-serif;
@@ -73,7 +73,8 @@ body{
     width: 87%;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 100px 0 ;
+    padding: 20px 0 100px 0;
+    line-height: 25px;
 }
 #main1 h3{
     width: 87%;
@@ -82,9 +83,11 @@ body{
 }
 #main1 #main1Content1{
     padding-bottom: 30px;
+    line-height: 20px;
 }
 #main1 #main1Content2{
     padding-bottom: 100px;
+    line-height: 20px;
 }
 
 #main1 button{
@@ -109,6 +112,31 @@ body{
     padding: 9px 50px;
     cursor: pointer;
 }
+#main1{
+    animation-name: main1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+  }
+  @keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+  }
 
 
 
@@ -120,6 +148,36 @@ body{
     color: #ffffff;
 
 }
-#main2 img{
-    width: 45%;
+#main2{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
 }

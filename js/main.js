@@ -35,7 +35,7 @@ epilEl.addEventListener("mouseout", OnMenuWhite);
 function OnMenuCyan(e) {
     leftSectionlEl.style.backgroundColor = "#00bdff";
     leftSectionlEl.style.color = "#000000";
-    mainImgEl.src = "./img/greyLogo.png";
+    mainImgEl.src = "./img/normalLogo.png";
 }
 illuEl.addEventListener("mouseover", OnMenuCyan);
 illuEl.addEventListener("mouseout", OnMenuWhite);
@@ -44,7 +44,7 @@ illuEl.addEventListener("mouseout", OnMenuWhite);
 function OnMenuMagenta(e) {
     leftSectionlEl.style.backgroundColor = "#ff0098";
     leftSectionlEl.style.color = "#000000";
-    mainImgEl.src = "./img/greyLogo.png";
+    mainImgEl.src = "./img/normalLogo.png";
 }
 newmEl.addEventListener("mouseover", OnMenuMagenta);
 newmEl.addEventListener("mouseout", OnMenuWhite);
@@ -53,7 +53,7 @@ newmEl.addEventListener("mouseout", OnMenuWhite);
 function OnMenuYellow(e) {
     leftSectionlEl.style.backgroundColor = "#ffc200";
     leftSectionlEl.style.color = "#000000";
-    mainImgEl.src = "./img/greyLogo.png";
+    mainImgEl.src = "./img/normalLogo.png";
 }
 videEl.addEventListener("mouseover", OnMenuYellow);
 videEl.addEventListener("mouseout", OnMenuWhite);

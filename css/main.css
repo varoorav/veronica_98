@@ -13,10 +13,9 @@ body{
     position: absolute;
     width: 40%;
     right: 60%;
-  
+    transition: all 200ms ease;
 }
 #leftTitle{
-
     float: right;
     width: 25%;/*???*/
     padding: 15% 0;
@@ -79,36 +78,48 @@ li{
 a{
     text-decoration: none;
     color: #000000;
+
+    transition: all 200ms ease;
 }
 
 #prol:hover{
     font-weight: 900;
     text-decoration: none;
     color: #000000;
+
+    transition: all 200ms ease;
 }
 
 #illu:hover{
     font-weight: 900;
     text-decoration: none;
     color: #00bdff;
+
+    transition: all 200ms ease;
 }
 
 #newm:hover{
     font-weight: 900;
     text-decoration: none;
     color: #ff0098;
+
+    transition: all 200ms ease;
 }
 
 #vide:hover{
     font-weight: 900;
     text-decoration: none;
     color: #ffc200;
+
+    transition: all 200ms ease;
 }
 
 #epil:hover{
     font-weight: 900;
     text-decoration: none;
     color: #000000;
+
+    transition: all 200ms ease;
 }
 
 .clear{clear: both;}

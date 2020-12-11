@@ -68,9 +68,15 @@ body{
     font-size: 30px;
     font-weight: 700;
     padding: 0 0 150px 0;
+    color: #000000;
 }
 #main1 #main1Name{
     padding-top: 15px;
+    transition: all 200ms ease;
+}
+#main1 #main1Name:hover{
+    color: #6d66ff;
+    transition: all 200ms ease;
 }
 #main1 button{
     font-family: 'Noto Sans KR', sans-serif;
@@ -81,6 +87,8 @@ body{
     border-radius: 10px;
     padding: 9px 50px;
     outline: 0;
+
+    transition: all 200ms ease;
 }
 #main1 button:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -92,6 +100,33 @@ body{
     border-radius: 10px;
     padding: 9px 50px;
     cursor: pointer;
+
+    transition: all 200ms ease;
+}
+#main1{
+    animation-name: easeMain;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes easeMain {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+@keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
 }
 
 
@@ -142,4 +177,37 @@ body{
     font-weight: 700;
     text-align: right;
     padding: 0 50px 33px 0;
+}
+#main2{
+    animation-name: easeMain2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes easeMain2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
 }

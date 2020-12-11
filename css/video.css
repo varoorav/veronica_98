@@ -74,6 +74,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 20px 0 100px 0 ;
+    line-height: 25px;
 }
 #main1 h3{
     width: 87%;
@@ -82,6 +83,7 @@ body{
 }
 #main1 #main1Content1{
     padding-bottom: 30px;
+    line-height: 20px;
 }
 #main1 #main1Content2{
     padding-bottom: 100px;
@@ -108,6 +110,31 @@ body{
     padding: 10px 50px;
     cursor: pointer;
 }
+#main1{
+    animation-name: main1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+@keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
 
 
 
@@ -119,7 +146,155 @@ body{
     color: #ffffff;
 
 }
-#main2 img{
-    width: 45%;
+#main2{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
 
+
+
+/*버튼*/
+#main1BeforeDiv{
+    position: absolute;
+    left: 8%;
+    padding: 640px 0 0 50px;
+}
+#main1BeforeDiv #main1Before{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffc200;
+    background-color: #ffffff;
+    border: 3px solid #ffc200;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main1BeforeDiv #main1Before:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffc200;
+    background-color: #ffc200;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+#main1BeforeDiv{
+    animation-name: main1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+@keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+
+
+
+#main2NextDiv{
+    position: absolute;
+    left: 54%;
+    padding: 605px 0 0 645px;
+}
+#main2NextDiv #main2Next{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffc200;
+    background-color: #ffc200;
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main2NextDiv #main2Next:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffc200;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+#main2NextDiv{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
 }

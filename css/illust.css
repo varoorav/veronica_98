@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
 body{
-    /*background-color: #ff6e6e;*/
+    overflow: hidden;
 }
 .wrap{
     font-family: 'Noto Sans KR', sans-serif;
@@ -117,6 +117,32 @@ body{
     padding: 9px 50px;
     cursor: pointer;
 }
+#main1{
+  animation-name: main1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+  0% {
+      opacity: 0;
+      left: 7%;
+  }
+  100% {
+      opacity: 1;
+      left: 8%;
+  }
+}
+@keyframes easeMain2 {
+  0% {
+      opacity: 0;
+      left: 7%;
+  }
+  100% {
+      opacity: 1;
+      left: 8%;
+  }
+}
+
 
 
 
@@ -126,16 +152,44 @@ body{
     left: 54%;
     background-color: #00bdff;
     color: #ffffff;
-
-
 }
-#main2 img{
-    width: 100%;
-    padding: 121px 0;
+#main2{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
 }
 
 
 
+/*버튼*/
 #main1BeforeDiv{
     position: absolute;
     left: 8%;
@@ -163,11 +217,38 @@ body{
     padding: 10px;
     outline: 0;
 }
+#main1BeforeDiv{
+    animation-name: main1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+@keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+
+
 
 #main2NextDiv{
     position: absolute;
     left: 54%;
-    padding: 640px 0 0 645px;
+    padding: 605px 0 0 645px;
 }
 #main2NextDiv #main2Next{
     font-family: 'Noto Sans KR', sans-serif;
@@ -190,4 +271,37 @@ body{
     border-radius: 100px;
     padding: 10px;
     outline: 0;
+}
+#main2NextDiv{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
 }

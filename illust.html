@@ -6,6 +6,7 @@
     <title>1장 오래된</title>
     <link href="css/reset.css" rel="stylesheet"/>
     <link href="css/illust.css" rel="stylesheet"/>
+    <link href="css/illustGallery.css" rel="stylesheet"/>
 </head>
 <body>
     <div class=wrap>
@@ -27,14 +28,25 @@
                 <h3 id=main1Content3>이런 생각을 더 극대화하기 위해 오직 하얀색과 검은색만을 사용해 극단적인 대비 효과를 주었습니다.</h3>
                 <h3 id=main1Content4>Clip Studio로 만들었습니다.</h3>
             </div>
-            <a href="https://www.instagram.com/varoorav/"><button id=main1Go>보러가기</button></a>
+            <a href="https://www.instagram.com/varoorav/" target="_blank"><button id=main1Go>보러가기</button></a>
         </div>
         <div id=main1BeforeDiv><button id=main1Before></button></div>
 
         <div id=main2>
-            <img src="img/Light1.jpg">
+            <div class="mySlides fade"><img src="img/illust1.jpg" style="width: 100%; padding: 121px 0;"></div>
+            <div class="mySlides fade"><img src="img/illust2.jpg" style="width: 100%; padding: 121px 0;"></div>
+            <div class="mySlides fade"><img src="img/illust3.jpg" style="width:69%; padding: 0 16%;"></div>
+            <div class="mySlides fade"><img src="img/illust4.jpg" style="width:69%; padding: 0 16%;"></div>
+        </div>
+            
+        <div class=dots>
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
         </div>
         <div id=main2NextDiv><button id=main2Next></button></div>
     </div>
+    <script type = "text/javascript" src = "js/illustGallery.js"></script>
 </body>
 </html>
