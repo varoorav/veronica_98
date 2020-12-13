@@ -23,14 +23,14 @@ body{
     padding: 0 30px 50px 30px;
     text-align: left;
 }
-#menu #newm{
-    font-weight: 900;
-    color: #ff0098;
-}
-/*-*/
-#menu #illu:hover{
+#menu #illu{
     font-weight: 900;
     color: #00bdff;
+}
+/*-*/
+#menu #newm:hover{
+    font-weight: 900;
+    color: #ff0098;
 }
 #menu #prol:hover{
     font-weight: 900;
@@ -67,14 +67,14 @@ body{
 #main1 #main1Title{
     font-size: 30px;
     font-weight: 900;
-    color: #ff0098;
+    color: #00bdff;
 }
 #main1 #main1TitleSub{
     width: 87%;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 100px 0;
     line-height: 25px;
+    padding: 20px 0 80px 0 ;
 }
 #main1 h3{
     width: 87%;
@@ -83,33 +83,39 @@ body{
 }
 #main1 #main1Content1{
     padding-bottom: 30px;
-    line-height: 21px;
+    line-height: 23px;
 }
 #main1 #main1Content2{
-    padding-bottom: 100px;
-    line-height: 21px;
+    padding-bottom: 30px;
+    line-height: 23px;
 }
-
-#main1 button{
+#main1 #main1Content3{
+    padding-bottom: 30px;
+    line-height: 23px;
+}
+#main1 #main1Content4{
+    padding-bottom: 70px;
+}
+#main1 #main1Go{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ff0098;
+    color: #00bdff;
     background-color: #ffffff;
-    border: 3px solid #ff0098;
+    border: 3px solid #00bdff;
     border-radius: 10px;
     padding: 9px 50px;
     outline: 0;
 
     transition: all 200ms ease;
 }
-#main1 button:hover{
+#main1 #main1Go:hover{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #ff0098;
-    border: 3px solid #ff0098;
+    background-color: #00bdff;
+    
     border-radius: 10px;
     padding: 9px 50px;
     cursor: pointer;
@@ -117,6 +123,106 @@ body{
     transition: all 200ms ease;
 }
 #main1{
+  animation-name: main1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+  0% {
+      opacity: 0;
+      left: 7%;
+  }
+  100% {
+      opacity: 1;
+      left: 8%;
+  }
+}
+@keyframes easeMain2 {
+  0% {
+      opacity: 0;
+      left: 7%;
+  }
+  100% {
+      opacity: 1;
+      left: 8%;
+  }
+}
+
+
+
+
+#main2{
+    position: absolute;
+    width: 46%;
+    left: 54%;
+    background-color: #00bdff;
+    color: #ffffff;
+}
+#main2{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+
+
+
+/*버튼*/
+#main1BeforeDiv{
+    position: absolute;
+    left: 8%;
+    padding: 640px 0 0 50px;
+}
+#main1BeforeDiv #main1Before{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #ffffff;
+    border: 3px solid #00bdff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main1BeforeDiv #main1Before:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #00bdff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+#main1BeforeDiv{
     animation-name: main1;
     animation-duration: 1.5s;
     animation-timing-function: ease;
@@ -130,8 +236,8 @@ body{
         opacity: 1;
         left: 8%;
     }
-  }
-  @keyframes easeMain2 {
+}
+@keyframes main1 {
     0% {
         opacity: 0;
         left: 7%;
@@ -140,19 +246,38 @@ body{
         opacity: 1;
         left: 8%;
     }
-  }
-
-
-
-#main2{
-    position: absolute;
-    width: 46%;
-    left: 54%;
-    background-color: #ff0098;
-    color: #ffffff;
-
 }
-#main2{
+
+
+
+#main2NextDiv{
+    position: absolute;
+    left: 54%;
+    padding: 605px 0 0 645px;
+}
+#main2NextDiv #main2Next{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #00bdff;
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main2NextDiv #main2Next:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00bdff;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+#main2NextDiv{
     animation-name: main2;
     animation-duration: 2s;
     animation-timing-function: ease;

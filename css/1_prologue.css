@@ -118,7 +118,7 @@ body{
         left: 8%;
     }
 }
-@keyframes easeMain2 {
+@keyframes easeMain {
     0% {
         opacity: 0;
         left: 7%;
@@ -146,19 +146,19 @@ body{
     font-size: 30px;
     font-weight: 700;
     text-align: right;
-    padding: 30px 50px 10px 0;
+    padding: 20px 50px 10px 0;
 }
 #main2 h2{
     font-size: 20px;
     font-weight: 500;
     text-align: right;
-    padding: 0 50px 70px 0;
+    padding: 0 50px 50px 0;
 }
 #main2 h4{
     font-size: 20px;
     font-weight: 300;
     text-align: right;
-    padding: 0 50px 20px 0;
+    padding: 0 50px 10px 0;
 }
 #main2 #main2Phone{
     font-size: 20px;
@@ -176,7 +176,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     text-align: right;
-    padding: 0 50px 33px 0;
+    padding: 0 50px 73px 0;
 }
 #main2{
     animation-name: easeMain2;
@@ -198,6 +198,126 @@ body{
     }
 }
 @keyframes easeMain2 {
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+
+
+
+/*버튼*/
+#main1BeforeDiv{
+    position: absolute;
+    left: 8%;
+    padding: 640px 0 0 50px;
+}
+#main1BeforeDiv #main1Before{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main1BeforeDiv #main1Before:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #000000;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+#main1BeforeDiv{
+    animation-name: main1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main1 {   
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+@keyframes main1 {
+    0% {
+        opacity: 0;
+        left: 7%;
+    }
+    100% {
+        opacity: 1;
+        left: 8%;
+    }
+}
+
+
+
+#main2NextDiv{
+    position: absolute;
+    left: 54%;
+    padding: 640px 0 0 635px;
+}
+#main2NextDiv #main2Next{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#main2NextDiv #main2Next:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    outline: 0;
+}
+
+#main2NextDiv{
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes main2 {   
+    0% {
+        opacity: 0;
+        left: 53%;
+    }
+    50% {
+        opacity: 0;
+        left: 53%;
+    }
+    100% {
+        opacity: 1;
+        left: 54%;
+    }
+}
+@keyframes main2 {
     0% {
         opacity: 0;
         left: 53%;
