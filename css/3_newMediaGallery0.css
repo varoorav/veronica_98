@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
+#main2{z-index: 1;}
+#main2NextDiv{z-index: 2;}
+#menu{z-index: 4;}
+.dots {
+  position: relative;
+  padding: 100px 0 0 59%;
+  z-index: 3;
+}
+.dot a{
+  text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.dot{
+  outline: 0;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.dot:hover{
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  outline: 0;
+  cursor: pointer;
+
+  transition: all 200ms ease;
+}
+
+
+.dots {
+  -webkit-animation-name: dotFade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: dotFade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes dotFade {
+  0% {
+    opacity: 0;
+  } 
+  70% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes dotFade {
+  0% {
+    opacity: 0;
+  } 
+  70% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
+  }
+}

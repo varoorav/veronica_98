@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
 body{
     overflow: hidden;
+
 }
 .index{
     position: relative;
@@ -123,3 +124,59 @@ a{
 }
 
 .clear{clear: both;}
+
+.leftSection{
+    animation-name: leftSectionFade;
+    animation-duration: 1.7s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes leftSectionFade {   
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes leftSectionFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.rightSection{
+    animation-name: rightSectionFade;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes rightSectionFade {   
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+    30% {
+        opacity: 0;
+        left: 20%;
+    }
+    100% {
+        opacity: 1;
+        left: 40%;
+    }
+}
+@keyframes rightSectionFade {
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+    30% {
+        opacity: 0;
+        left: 20%;
+    }
+    100% {
+        opacity: 1;
+        left: 40%;
+    }
+}

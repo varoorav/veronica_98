@@ -12,6 +12,7 @@ body{
     /*background-color: #000000;*/
     text-align: center;
     padding-top: 50px;
+    transition: all 500ms ease;
 }
 #menu a{
     text-decoration: none;
@@ -31,18 +32,22 @@ body{
 #menu #illu:hover{
     font-weight: 900;
     color: #00bdff;
+    transition: all 200ms ease;
 }
 #menu #prol:hover{
     font-weight: 900;
     color: #000000;
+    transition: all 200ms ease;
 }
 #menu #newm:hover{
     font-weight: 900;
     color: #ff0098;
+    transition: all 200ms ease;
 }
 #menu #epil:hover{
     font-weight: 900;
     color: #000000;
+    transition: all 200ms ease;
 }
 #menu img{
     width: 70%;
@@ -76,22 +81,29 @@ body{
     padding: 20px 0 80px 0 ;
     line-height: 25px;
 }
-#main1 h3{
+#main1 #main1Content1{
     width: 87%;
     font-size: 18px;
     font-weight: 500;
-}
-#main1 #main1Content1{
     padding-bottom: 30px;
     line-height: 23px;
 }
 #main1 #main1Content2{
-    padding-bottom: 30px;
+    width: 87%;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 50px;
     line-height: 23px;
 }
 #main1 #main1Content3{
+    width: 87%;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+#main1 #main1Content4{
     padding-bottom: 70px;
-    line-height: 23px;
 }
 #main1 button{
     font-family: 'Noto Sans KR', sans-serif;
@@ -149,7 +161,7 @@ body{
     left: 54%;
     background-color: #ffc200;
     color: #ffffff;
-
+    padding: 500px;
 }
 #main2{
     animation-name: main2;
@@ -204,6 +216,7 @@ body{
     padding: 10px;
     outline: 0;
     cursor: pointer;
+    transition: all 200ms ease;
 }
 #main1BeforeDiv #main1Before:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -214,6 +227,7 @@ body{
     border-radius: 100px;
     padding: 10px;
     outline: 0;
+    transition: all 200ms ease;
 }
 #main1BeforeDiv{
     animation-name: main1;
@@ -246,7 +260,7 @@ body{
 #main2NextDiv{
     position: absolute;
     left: 54%;
-    padding: 605px 0 0 645px;
+    padding: 460px 0 0 640px;
 }
 #main2NextDiv #main2Next{
     font-family: 'Noto Sans KR', sans-serif;
@@ -259,6 +273,7 @@ body{
     padding: 10px;
     outline: 0;
     cursor: pointer;
+    transition: all 200ms ease;
 }
 #main2NextDiv #main2Next:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -269,6 +284,7 @@ body{
     border-radius: 100px;
     padding: 10px;
     outline: 0;
+    transition: all 200ms ease;
 }
 #main2NextDiv{
     animation-name: main2;

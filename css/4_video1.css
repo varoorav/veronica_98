@@ -91,6 +91,10 @@ body{
     line-height: 23px;
 }
 #main1 #main1Content2{
+    padding-bottom: 30px;
+    line-height: 23px;
+}
+#main1 #main1Content3{
     padding-bottom: 70px;
     line-height: 23px;
 }
@@ -249,7 +253,7 @@ body{
 #main2NextDiv{
     position: absolute;
     left: 54%;
-    padding: 605px 0 0 645px;
+    padding: 610px 0 0 645px;
 }
 #main2NextDiv #main2Next{
     font-family: 'Noto Sans KR', sans-serif;

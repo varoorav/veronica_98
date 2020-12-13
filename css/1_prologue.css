@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap');
 body{
-    /*background-color: #ff6e6e;*/
+    overflow: hidden;
 }
 .wrap{
     font-family: 'Noto Sans KR', sans-serif;
@@ -12,6 +12,7 @@ body{
     /*background-color: #000000;*/
     text-align: center;
     padding-top: 50px;
+    transition: all 500ms ease;
 }
 #menu a{
     text-decoration: none;
@@ -31,18 +32,22 @@ body{
 #menu #illu:hover{
     font-weight: 900;
     color: #00bdff;
+    transition: all 200ms ease;
 }
 #menu #newm:hover{
     font-weight: 900;
     color: #ff0098;
+    transition: all 200ms ease;
 }
 #menu #vide:hover{
     font-weight: 900;
     color: #ffc200;
+    transition: all 200ms ease;
 }
 #menu #epil:hover{
     font-weight: 900;
     color: #000000;
+    transition: all 200ms ease;
 }
 #menu img{
     width: 70%;
@@ -231,6 +236,8 @@ body{
     padding: 10px;
     outline: 0;
     cursor: pointer;
+
+    transition: all 200ms ease;
 }
 #main1BeforeDiv #main1Before:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -241,6 +248,8 @@ body{
     border-radius: 100px;
     padding: 10px;
     outline: 0;
+
+    transition: all 200ms ease;
 }
 #main1BeforeDiv{
     animation-name: main1;
@@ -286,6 +295,8 @@ body{
     padding: 10px;
     outline: 0;
     cursor: pointer;
+
+    transition: all 200ms ease;
 }
 #main2NextDiv #main2Next:hover{
     font-family: 'Noto Sans KR', sans-serif;
@@ -296,6 +307,8 @@ body{
     border-radius: 100px;
     padding: 10px;
     outline: 0;
+
+    transition: all 200ms ease;
 }
 
 #main2NextDiv{

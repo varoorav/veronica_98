@@ -24,9 +24,9 @@ body{
     padding: 0 30px 50px 30px;
     text-align: left;
 }
-#menu #vide{
+#menu #newm{
     font-weight: 900;
-    color: #ffc200;
+    color: #ff0098;
 }
 /*-*/
 #menu #illu:hover{
@@ -39,9 +39,9 @@ body{
     color: #000000;
     transition: all 200ms ease;
 }
-#menu #newm:hover{
+#menu #vide:hover{
     font-weight: 900;
-    color: #ff0098;
+    color: #ffc200;
     transition: all 200ms ease;
 }
 #menu #epil:hover{
@@ -72,13 +72,13 @@ body{
 #main1 #main1Title{
     font-size: 30px;
     font-weight: 900;
-    color: #ffc200;
+    color: #ff0098;
 }
 #main1 #main1TitleSub{
     width: 87%;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 0 80px 0 ;
+    padding: 20px 0 50px 0;
     line-height: 25px;
 }
 #main1 h3{
@@ -91,6 +91,10 @@ body{
     line-height: 23px;
 }
 #main1 #main1Content2{
+    padding-bottom: 30px;
+    line-height: 23px;
+}
+#main1 #main1Content3{
     padding-bottom: 70px;
     line-height: 23px;
 }
@@ -98,23 +102,27 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ffc200;
+    color: #ff0098;
     background-color: #ffffff;
-    border: 3px solid #ffc200;
+    border: 3px solid #ff0098;
     border-radius: 10px;
     padding: 9px 50px;
     outline: 0;
+
+    transition: all 200ms ease;
 }
 #main1 button:hover{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #ffc200;
-    border: 3px solid #ffc200;
+    background-color: #ff0098;
+    border: 3px solid #ff0098;
     border-radius: 10px;
-    padding: 10px 50px;
+    padding: 9px 50px;
     cursor: pointer;
+
+    transition: all 200ms ease;
 }
 #main1{
     animation-name: main1;
@@ -130,8 +138,8 @@ body{
         opacity: 1;
         left: 8%;
     }
-}
-@keyframes main1 {
+  }
+  @keyframes easeMain2 {
     0% {
         opacity: 0;
         left: 7%;
@@ -140,7 +148,7 @@ body{
         opacity: 1;
         left: 8%;
     }
-}
+  }
 
 
 
@@ -148,7 +156,7 @@ body{
     position: absolute;
     width: 46%;
     left: 54%;
-    background-color: #ffc200;
+    background-color: #ff0098;
     color: #ffffff;
 
 }
@@ -188,6 +196,7 @@ body{
 
 
 
+
 /*버튼*/
 #main1BeforeDiv{
     position: absolute;
@@ -198,9 +207,9 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ffc200;
+    color: #ff0098;
     background-color: #ffffff;
-    border: 3px solid #ffc200;
+    border: 3px solid #ff0098;
     border-radius: 100px;
     padding: 10px;
     outline: 0;
@@ -211,8 +220,8 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ffc200;
-    background-color: #ffc200;
+    color: #ff0098;
+    background-color: #ff0098;
     border-radius: 100px;
     padding: 10px;
     outline: 0;
@@ -233,7 +242,7 @@ body{
         left: 8%;
     }
 }
-@keyframes easeMain2 {
+@keyframes main1 {
     0% {
         opacity: 0;
         left: 7%;
@@ -255,8 +264,8 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ffc200;
-    background-color: #ffc200;
+    color: #ff0098;
+    background-color: #ff0098;
     border: 3px solid #ffffff;
     border-radius: 100px;
     padding: 10px;
@@ -268,7 +277,7 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #ffc200;
+    color: #ff0098;
     background-color: #ffffff;
     border-radius: 100px;
     padding: 10px;
