@@ -98,7 +98,7 @@ body{
     line-height: 23px;
 }
 #main1 #main1Content4{
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 #main1 #main1Go{
     font-family: 'Noto Sans KR', sans-serif;
@@ -202,29 +202,33 @@ body{
 #main1BeforeDiv{
     position: absolute;
     left: 8%;
-    padding: 640px 0 0 50px;
+    padding: 630px 0 0 50px;
 }
 #main1BeforeDiv #main1Before{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     color: #00bdff;
+
+    width: 40px;
+    height: 40px;
     background-color: #ffffff;
     border: 3px solid #00bdff;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 50%;
     outline: 0;
     cursor: pointer;
     transition: all 200ms ease;
 }
 #main1BeforeDiv #main1Before:hover{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
-    color: #00bdff;
+    color: #ffffff;
+
+    width: 40px;
+    height: 40px;
     background-color: #00bdff;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 50%;
     outline: 0;
     transition: all 200ms ease;
 }
@@ -259,29 +263,33 @@ body{
 #main2NextDiv{
     position: absolute;
     left: 54%;
-    padding: 605px 0 0 645px;
+    padding: 597px 0 0 620px;
 }
 #main2NextDiv #main2Next{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
-    color: #00bdff;
+    color: #ffffff;
+
+    width: 40px;
+    height: 40px;
     background-color: #00bdff;
     border: 3px solid #ffffff;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 50%;
     outline: 0;
     cursor: pointer;
     transition: all 200ms ease;
 }
 #main2NextDiv #main2Next:hover{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     color: #00bdff;
+
+    width: 40px;
+    height: 40px;
     background-color: #ffffff;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 50%;
     outline: 0;
     transition: all 200ms ease;
 }
